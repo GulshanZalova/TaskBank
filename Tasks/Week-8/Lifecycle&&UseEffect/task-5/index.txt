@@ -1,0 +1,8 @@
+https://northwind.vercel.app/api/categories
+
+
+Tələb olunanlar:
+
+1. Verilən api-dən dataları ekranda cardlar şəklində göstərin.
+2. Datalar ekrana gələrkən spinnerdən istifadə edin.
+3. Categoriyalarını adlarına görə search etmək mümkün olsun.

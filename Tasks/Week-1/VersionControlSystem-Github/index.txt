@@ -1,0 +1,129 @@
+Task:1
+
+Fayl yolunuza baxın.
+Desktopda olan bütün folder və fayllarınıza baxın.
+Desktopda Frontend adlı folder yaradın.
+Bu folderin içərisidə Javascript.txt adlı fayl yaradın.
+Fayl yolunuza baxın.
+Frontend folderinizin içərisindəki folder və fayllarınıza baxın.
+Javascript.txt içərisinə Hello World yazısı yazın.
+İlk dəfə yazanda save etmədən çıxış edin.
+İkinci dəfə yazınız save olunsun.
+Frontend folderinin içərisində Programming adlı folder yaradın.
+Programming folderinizin içərisində HTML adlı folder yaradın.
+Programming folderinizin içərisində CSS adlı folder yaradın.
+Fayl yolunuza baxın.
+Programming folderinizin içərisindəki folder və fayllarınıza baxın.
+HTML folderinizə keçid edərək içərisində html.txt yaradın.
+HTML folderindən çıxın və CSS folderində daxil olaraq css.txt faylı yaradın.
+Frontend folderinə qayıdıb Javascript faylını silin.
+Yenidən CSS folderinə qayıdıb css.txt faylını silin.
+Daha sonra CSS folderini silin.
+HTML folderini silin.
+Fayl yolunuza baxın.
+Frontend folderinizin içərisindəki folder və fayllarınıza baxın.
+Frontend folderiniz silin.
+
+Task:1 Açıqlama
+pwd:(print working directory)
+hal-hazırda olduğunuz fayl yolunu göstərir.
+
+ls:
+hal-hazırda olduğunuz folder daxilindəki folder və faylların siyahısını göstərir.
+
+cd:(change directory)
+hal-hazıda olduğunuz fayl yolunu dəyişdirmək üçün istifadə olunur. Folderin və ya faylın adının başlanğıcını yazıb taba klik etdikdə adı özü tamamlayır (shorcut). Bir neçə folder uzaqda olan folder və ya fayla keçid edirikdə, fayl yolu yazılmalıdır. Məsələn cd code/test
+
+cd..:
+
+hal-hazırda olduğunuz fayl yolunda bir əvvələ getmək üçün istifadə olunur. Əgər keçid etmək istədiyiniz fayl yolu bir neçə folder uzaqdadırsa, həmin yol qeyd olunmalıdır.
+Məsələn: cd ../../
+
+mkdir [folder adı]:
+hal-hazırda olduğunuz fayl yolunda folder yaratmaq üçündür.
+
+touch [fayl adı]:
+hal-hazırda olduğunuz fayl yolunda fayl yaratmaq üçündür.
+
+vim [fayl adı]:
+fayl içərisinə yazı yazmaq üçün istifadə olunur.İnsert mode yazı yazmaq üçündür, onu aktiv etmək üçün i-yə klik etmək lazımdır.İnsert mode-dan çıxış etmək üçün esc tuşuna klik olunur.İnsert mode-dan çıxdıqdan sonra :q! enter olunarsa(bu quite,yəni çıxış deməkdir) yazılanları save etmədən çıxır. :wq enter(bu write and quite, yəni yaz və çıx deməkdir.) yazılanları save edərək çıxış edir.
+
+rm [fayl adı]:
+faylı silmək üçündür.
+
+rmdir [folder]:
+folderi silmək üçündür. Amma bu command folderin içərisi boşdursa siləcəkdir.
+
+rm -r [folder adı]:
+folderi silmək üçündür.İçi dolu folderi silmək olar
+
+
+Task 2:
+
+Fayl yolunuza baxın.
+Desktopda FirstProject adlı folder yaradın(cmd command ilə).
+FirstProject folderi içərisində index.txt faylı yaradın(cmd command ilə).
+Fayl yolunuza baxın.
+FirstProject folderinizin içərisindəki folder və fayllarınıza baxın.
+Git init edin.
+Statusuna baxın.
+Folderinizi work area-dan stage area-ya keçirin.
+Yenidən folderinizin statusuna baxın.
+İcra etdiyiniz işlə bağlı commit yazın.
+Githubda First-Project adlı public bir repository yaradın.
+Localda olan FirstProject folderinizi First-Project repositoriylə əlaqələndirin.
+FirstProject folderinizi stage area-dan remote-a göndərin.
+Daha sonra index.txt faylınızın içərisinə "Hello World" yazın.
+Statusuna baxın.
+Faylınızı work area-dan stage area-ya keçirin.
+Statusuna baxın.
+FirstProject folderinizi stage area-dan remote-a göndərin.
+
+
+Task 2: Açıqlama
+
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+git init 
+git add [fayl adı] və ya git add .
+git status
+git commit -m "your commit"
+git remote add origin [repository name]
+git push -u origin [branch name]
+git clone [repository name]
+
+
+
+
+Task 3:
+Githubda Second-Project adlı private repository yaradın.Readme faylı da olsun.
+Fayl yolunuza baxıb desktopda olduğunuzdan əmin olduqdan sonra projecti desktopa clone edin.
+script.txt adlı fayl yaradın.
+Faylınızı work area-dan stage area-ya keçirin.
+Statusuna baxın.
+Stage area-dan remote-a göndərin.
+Müəllimlərinizi collaborator kimi əlavə edin.
+
+Task 3: Açıqlama
+
+git branch:
+mövcud olan brancları göstərir.
+
+git checkout -b [branch name]:
+yeni branch yaradır və həmin brancha avtomatik keçid edir.
+
+git branch [branch name]:
+yeni branch yaradır amma o brancha keçid etmir.
+
+git switch [branch name]:
+adı qeyd olunan brancha keçir.
+
+git checkout [branch name]:
+adı qeyd olunan brancha keçir.
+
+git merge [branch name]:
+adı qeyd olunan branchı main branchına birləşdirir.
+
+git branch --delete [branch name]:
+brancı silmək üçün yazılır.
+

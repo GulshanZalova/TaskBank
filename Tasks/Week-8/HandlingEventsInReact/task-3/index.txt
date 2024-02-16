@@ -1,0 +1,10 @@
+https://nicepage.com/html-templates/preview/concert-dates-431548?device=desktop
+
+
+
+Tələblər:
+
+1. Yuxarıdakı Uİ-ı yığırsız.
+2. İnfo-ların yuxarı hissəsində bir form olacaq. Bu formun 4 fieldi olacaq. Bu filedler  date, title,image və  info şəklində olacaq. Və burada bir add buttonu da olsun. Fieldləri doldurub submit etdikdə Həmin yeni info aşağıdakı sıraya əlavə olunsun.
+3. Hər bir cardının üzərində klik etdikdə bir modal açılsın və o modalda daha ətraflı məlumat görünsün.
+4. Modalın yuxarı sağ küncündə bir x işarəsi olsun və ona klik etdikdə modal bağlansın.

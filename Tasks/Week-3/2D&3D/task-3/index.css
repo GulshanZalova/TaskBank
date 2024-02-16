@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --headingbgcolor:#070707;
+    --headingtextcolor:orange;
+    --demo-2-dark:#55559d;
+    --demo-2-light:#5b5bae;
+    --demo-3:#24cf5f;
+    --demo-4:#e12573;
+    --demo-4-light:#f33182;
+}
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+header{
+    text-align: center;
+    height: 20rem;
+    gap: 10px;
+    background-color: var(--headingbgcolor);
+}
+header h1{
+    font-size: 45px;
+    color: var(--headingtextcolor);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+header p{
+    font-size: 27px;
+    font-weight: 700;
+    color: var(--headingtextcolor);
+}
+.demo-head{
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+    font-size: 27px;
+    font-weight: 700;
+    background-color: var(--headingtextcolor);
+    color: white;
+}
+.demo-body{
+    padding: 80px;
+}
+.demo-heading{
+    text-align: center;
+    margin:70px 0px;
+    gap: 10px;
+}
+.demo-heading h2{
+ font-size: 40px;
+
+}
+.demo-heading p{
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  opacity: 0.7;
+}
+.demo-items{
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0px auto;
+}
+.demo-item{
+ gap: 30px;
+ flex: 1;
+}
+
+/* Demo-3 Codes */
+.demo-head-3{
+    background-color: var(--demo-3);
+}
+.demo-item-3 {
+    position: relative;
+    gap: 40px;
+    padding: 20px;
+}
+
+.demo-item-3 i{
+    font-size: 70px;
+    color: var(--demo-3);
+}
+.demo-item-3 h3{
+    font-size: 40px;
+    color: black;
+    opacity: 0.9;
+}
+.demo-item-3 p{
+    font-size: 15px;
+    padding: 10px;
+    color: #333;
+    font-weight: 600;
+    opacity: 0.7;
+    text-align: center;
+    line-height: 1.5;
+}
+.demo-item-3 .btn-3 {
+    padding: 25px 60px;
+    border: none;
+    background-color:var(--demo-3);
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+}
+.overlay-bottom{
+    position: absolute;
+    width: 0%;
+    transition: all .1s ease .1s;
+    right:0 ;
+    bottom: 0;
+}
+.overlay-top{
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    transition: all .1s ease .3s;
+    top:0 ;
+    left: 0;
+}
+.overlay-left{
+    position: absolute;
+    height: 0%;
+    transition: all .1s ease .2s;
+    width: 2px;
+    left:0 ;
+}
+.overlay-right{
+    position: absolute;
+    height: 0%;
+    transition: all .1s ease .4s;
+    width: 2px;
+    right:0 ;
+    top: 0;
+}
+.demo-item-3:hover .overlay-left {
+    height: 100%;
+    background-color: var(--demo-3);
+}
+.demo-item-3:hover .overlay-bottom {
+    height: 2px;
+    background-color: var(--demo-3);
+    width: 100%;
+}
+.demo-item-3:hover .overlay-top {
+    height: 2px;
+    background-color: var(--demo-3);
+    width: 100%;
+}
+.demo-item-3:hover .overlay-right {
+    height: 100%;
+    background-color: var(--demo-3);
+}
+.demo-item-2:hover .btn-2{
+    background-color: var(--demo-2-light);
+    color: white;
+}  
+/* Demo-3 Codes */

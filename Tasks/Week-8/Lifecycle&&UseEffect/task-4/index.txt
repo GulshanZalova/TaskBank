@@ -1,0 +1,12 @@
+https://fakestoreapi.com/products
+
+Tələb olunanlar:
+
+1. Verilən api-dən dataları ekranda cardlar şəklində göstərin.
+2. Datalar ekrana gələrkən spinnerdən istifadə edin.
+3. Hər bir məhsul üzərində button olsun və ona klik etdikdə məhsul wishlistə əlavə olunsun.
+4. Əgər wishlistdə bu məshul varsa məshulun orada olmasıyla bağlı alert çıxarılsın.
+5. Məhsulları adlarına görə search etmək mümkün olsun.
+6. Məhsulları qiymətinə görə sort etmək olsun.
+
+

@@ -1,0 +1,18 @@
+
+const products = [
+    { name: "AzərSüd", price: 500,istehsal:"yerli" },
+    { name: "Milla", price: 500,istehsal:"yerli" },
+    { name: "DostSüd", price: 3000 ,istehsal:"yerli"},
+    { name: "Athena", price: 500,istehsal:"xarici" },
+    { name: "Golden", price: 1900,istehsal:"xarici" },
+    { name: "Milka", price: 1000 ,istehsal:"xarici"},
+    { name: "Golden Crown", price: 340,istehsal:"xarici" }
+  ];
+
+1. Hər bir məhsulun price-nı 100 artırın
+2. Məhsulların adlarını a-z şəklində sıralayın.
+3. Məhsullar arasında yerli məhsul varmı?
+4. Məhsulların hamısı xaricdə istehsal olunub?
+
+
+

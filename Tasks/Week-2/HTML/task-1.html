@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+        <h1>Register</h1>
+
+        <form action="form_emal.php" method="POST">
+            <label for="ad">Adınız:</label>
+            <input type="text" id="ad" name="ad" required>
+            <label for="soyad">Soyadınız:</label>
+            <input type="text" id="soyad" name="soyad" required>
+            <br>
+            <br>
+            <p>Cinsiyyət:</p>
+            <input type="radio" id="kisi" name="cinsiyyet" value="kisi">
+            <label for="kisi">Kişi</label>
+            <input type="radio" id="qadin" name="cinsiyyet" value="qadin">
+            <label for="qadin">Qadın</label>
+            <br>
+            <br>
+            <label for="tarix">Doğum gününüzü qeyd edin.</label>
+            <input type="date" id="tarix">
+            <br>
+            <br>
+            <label for="yaş">Yaşınızı qeyd edin:</label>
+            <input type="number" min="18" max="30">
+            <br>
+            <br>
+            <p>Hansı dilləri bilirsiniz?</p>
+            <input type="checkbox" id="ingilis" name="dillər[]" value="ingilis">
+            <label for="ingilis">İngilis dili</label>
+            <input type="checkbox" id="fransız" name="dillər[]" value="fransız">
+            <label for="fransız">Fransız dili</label>
+            <input type="checkbox" id="alman" name="dillər[]" value="alman">
+            <label for="alman">Alman dili</label>
+            <br>
+            <br>
+            <br>
+             <label for="sahə">Müraciət etmək istədiyiniz sahəni seçin:</label>
+             <select name="sahə" id="sahə">
+                <option value="frontend">Frontend Development</option>
+                <option value="backend">Backend Development</option>
+                <option value="mobil">Mobil Development</option>
+                <option value="game">Game Development</option>
+             </select>
+            <br>
+            <br>
+            <br>
+            <label for="foto">Şəkilinizi əlavə edin:</label>
+            <input type="file" id="foto">
+            <br>
+            <br>
+            <br>
+            <label for="vaxt">Sizinlə meet olunmasını istədiyiniz saatı seçin:</label>
+            <input type="time" id="vaxt">
+            <br>
+            <br>
+            <br>
+            <label for="rəng">Sevdiyiniz rəng hansıdır?</label>
+            <input type="color" id="rəng">
+            <br>
+            <br>
+            <br>
+            <p>Özünüz haqqında ətraflı məlumat yazın:</p>
+            <textarea id="mesaj" name="mesaj" rows="4" cols="50" placeholder="Message"></textarea>
+            <br>
+            <br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Göndər">
+        </form>
+
+    
+</body>
+</html>

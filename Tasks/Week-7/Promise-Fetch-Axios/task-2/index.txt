@@ -1,0 +1,11 @@
+https://northwind.vercel.app/api/categories
+
+Tələb olunanlar:
+
+1. Api-dəki dataları ekranda table şəklində göstərirsiniz.
+2. Hər bir məlumatın qarşısında bir delete button olmalıdır. Və klik olunduqda silinməlidir.
+3. Hər bir məlumatın qarşısında bir edit buttonu olmalıdır və ona klik etdikdə modal açılmalıdır. Həmin modal klik edilən xananın məlumatları inputda əks olunmalıdır. Məlumatları dəyişdirib klik etdikdə datalar update olunmalıdır.
+4. Ən yuxarı hissədə 1 input olacaq və o inputa yazdıqca aşağıda name-ə görə uyğun datalar görünəcək.
+5. Ən yuxarı hissədə bir input olacaq və o inputa klik etdikdə məhsullar ada görə sıralanacaq.
+6. Uİ-da sərbəstsiniz.
+7. Responsive olmalıdır.

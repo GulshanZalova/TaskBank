@@ -1,0 +1,13 @@
+https://northwind.vercel.app/api/suppliers
+
+
+Tələb olunanlar:
+
+1. Dataları ekranda table şəklində göstərin. Göstəriləcək olan datalar bunlardır: companyName,contactName,contactTitle
+2. Datalar ekranda göstərilərkən spinnerdən istifadə edin.
+3. Hər bir datanın qarşısında bir delete button olsun və klik etdikdə data silinsin. Silinmə ilə bağlı alert çıxarılsın.
+Sweet  alert və ya hot toaster istifadə olunmalıdır.
+4. Hər bir datanın qarşısında bir edit buttonu olmalıdır və ona klik etdikdə modal açılmalıdır. Həmin modal klik edilən xananın məlumatları inputda əks olunmalıdır. Məlumatları dəyişdirib klik etdikdə datalar update olunmalıdır.Sweet  alert və ya hot toaster istifadə olunmalıdır.
+5. Hər bir datanın qarşısında bir detail buttonu olmalıdır və ona klik etdikdə klik etdikdə həmin məhsulun detail səhifəsinə getməlidir.
+6.  Table-dan yuxarıda bir form olacaq. Bu formun bir add buttonu və 3 fieldi var:companyName,contactName,contactTitle. Bu fieldlər doldurulub add buttona klik etdikə məhsul post olunmalı və table-də göstərilməlidir. İnputların boş olmaslı yoxlanılmalı və əgər boşdursa alert göstərilməlidir.Sweet  alert və ya hot toaster istifadə olunmalıdır.
+7. Uİ-da sərbəstsiniz.

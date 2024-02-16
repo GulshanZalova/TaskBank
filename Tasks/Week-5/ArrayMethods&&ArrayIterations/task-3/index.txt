@@ -1,0 +1,48 @@
+const characters = [
+    {
+        name: 'Luke Skywalker',
+        height: '172',
+        mass: '77',
+        eye_color: 'blue',
+        gender: 'male',
+    },
+    {
+        name: 'Darth Vader',
+        height: '202',
+        mass: '136',
+        eye_color: 'yellow',
+        gender: 'male',
+    },
+    {
+        name: 'Leia Organa',
+        height: '150',
+        mass: '49',
+        eye_color: 'brown',
+        gender: 'female',
+    },
+    {
+        name: 'Anakin Skywalker',
+        height: '188',
+        mass: '84',
+        eye_color: 'blue',
+        gender: 'male',
+    },
+];
+
+ 
+3.1 Bütün adlardan ibarət array əldə edin.
+3.2 Bütün yüksəkliklərdən ibarət array əldə edin.
+3.3 Kütləsi 100-dən çox olan xarakterləri əldə edin.
+3.4 Hündürlüyü 200-dən az olan xarakterləri əldə edin.
+3.5 Bütün kişi userləri alın.
+3.6 Bütün qadın userləri əldə edin.
+3.7 Hər bir userin mavi gözləri varmı?
+3.8 Hər bir userin kütləsi 40-dan çoxdur?
+3.9 Hər userin hündürlüyü 200-dən qısadır?
+3.10 Bütün userlər kişidir?
+3.12 Ən azı bir kişi xarakteri varmı?
+3.13 Mavi gözlü ən azı bir personaj varmı?
+3.14 200-dən yuxarı ən azı bir simvol varmı?
+3.15 Kütləsi 50-dən az olan ən azı bir simvol varmı?
+3.16 Adlara görə sırala
+3.17 Masslara görə sırala

@@ -1,0 +1,8 @@
+https://nicepage.com/html-templates/preview/homemade-pizza-4715683?device=desktop
+
+
+
+
+1. Qeyd olunan linkdəki ui-ı react componentlərinə ayıraraq yazırsınız.
+2. Header,Footer, Products, Product componentləriniz olsun. Daha hansı componentlərə ayırmaq olar bunun üzərinə düşünün.
+3. Italy Pizza Menu hissəsindəki məlumatları array içərisində saxlayın və buradakı parent componentdə həmin array map edin və child componentə props olaraq ötürün. Paranet component Products, child component isə Product olsun.

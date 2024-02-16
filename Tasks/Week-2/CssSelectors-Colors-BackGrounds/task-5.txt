@@ -1,0 +1,64 @@
+<!-- Task 1  Select yazılan buttonun backgroundunu sarı rəng edin.-->
+<div class="items">
+    <button value="hello">Select</button>
+    <button value="yellow" >Select</button>
+    <button value="below" >No Select</button>
+    <button value="go" >No Select</button>
+</div>
+<!-- Task 2  Select yazılan buttonun backgroundunu sarı rəng edin.-->
+<div class="items">
+    <button value="hello">Select</button>
+    <button value="yellow" > No Select</button>
+    <button value="hello-world" >Select</button>
+    <button value="go" >No Select</button>
+</div>
+
+<!-- Task 3  Select yazılan buttonun backgroundunu sarı rəng edin.-->
+<div class="items">
+    <button value="create">Select</button>
+    <button value="create text" > Select</button>
+    <button value="text" > No Select</button>
+    <button value="test" >No Select</button>
+</div>
+
+<!-- Task 4  Sadəcə Paragraph yazılarına hover edende backgroundunu sarı rəng olsun.-->
+<div class="items">
+    <p>Text</p>
+    <span>Text</span>
+    <span class="parag">Paragraph</span>
+    <div>
+        <span>
+            <p>Text</p>
+        </span>
+    </div>
+    <p>Text</p>
+    <p class="parag">Paragraph</p>
+</div>
+
+<!-- Task 5  Inputların placeholderini qırmızı rəng edin-->
+
+<div class="items">
+    <input type="text" placeholder="Write Your Name">
+    <input type="text" placeholder="Write Your Surname">
+    <input type="text" placeholder="Write Your Email">
+</div>
+
+
+
+
+Task 1: Açıqlama
+[value*="ell"]
+
+Task 2: Açıqlama
+[value^="hello"]
+
+Task 3: Açıqlama
+[value^="create"]
+
+Task 4: Açıqlama
+.parag:hover
+
+Task 5: Açıqlama
+input::placeholder
+
+

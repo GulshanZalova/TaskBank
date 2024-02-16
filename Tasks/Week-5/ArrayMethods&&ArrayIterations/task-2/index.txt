@@ -1,0 +1,6 @@
+
+let numbers = [1,2,3,4,5,6,7,8,9]
+
+2.1 array içərisindəki tək ədədləri tapıb başqa bir arraydə göstərin.
+2.2 alınan yeni arrayin elementlərinin kvadratını alıb başqa bir arraydə göstərin.
+2.3 alınan ən son arraydə 10dan böyük olanların cəmini ekranda göstərin.

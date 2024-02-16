@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expanding Effect</title>
+    <style>
+        *{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .seasons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 80vw;
+            height: 100vh;
+        }
+        .season{
+            position: relative;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 90%;
+            flex: 0.5;
+            border-radius: 20px;
+            transition: all .4s ease;
+        }
+        .season.active{
+            flex: 5;
+        }
+        .season.active h3{
+            display: block;
+        }
+        .season h3{
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            font-size: 30px;
+            background-color: black;
+            padding: 10px 20px;
+            opacity: 0.6;
+            display: none;
+            transition: all .4s ease .4s;
+        }
+    </style>
+</head>
+<body>
+<div class="seasons">
+    <div class="season active" style="background-image: url(https://c.tadst.com/gfx/750w/spring-blossom.jpg?1);"><h3>Spring</h3></div>
+    <div class="season" style="background-image: url(https://hips.hearstapps.com/hmg-prod/images/beautiful-tropical-sunset-scenery-two-sun-beds-royalty-free-image-1595368231.jpg);"><h3>Summer</h3></div>
+    <div class="season" style="background-image: url(https://services.meteored.com/img/article/when-is-the-best-time-to-see-autumn-leaves-in-the-uk-372761-1_768.jpeg);"><h3>Autumn</h3></div>
+    <div class="season" style="background-image: url(https://loveincorporated.blob.core.windows.net/contentimages/gallery/6a985aaa-8a95-4382-97a9-91cdf96f43d3-Moraine_Lake_Dennis_Frates_Alamy_Stock_Photo.jpg);"><h3>Winter</h3></div>
+</div>
+
+ <script>
+    const seasons=document.querySelectorAll(".season")
+    seasons.forEach(season=>{
+        season.addEventListener("click",()=>{ 
+            removeActive()   
+            season.classList.add("active")
+        })
+    })
+  function removeActive(){
+    seasons.forEach((season)=>{
+        season.classList.remove("active")
+    })
+  }
+ </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+https://fakestoreapi.com/products
+
+Tələb olunanlar:
+
+1. Verilən api-dən dataları ekranda cardlar şəklində göstərin.
+2. Datalar ekrana gələrkən spinnerdən istifadə edin.
+3. Hər bir məhsulun title-na klik etdikdə məhsulun detail səhifəsinə getsin.
+4. Detail səhifəsindən isə geriyə qayıtmaq üçün back buttonu olsun.
+5. Hər bir məhsul üzərində basket iconu olsun və icona klik etdikə məhsul basketə əlavə olunsun.
+6. Əgər məhsul basketdə yoxdursa və ilk dəfə basketə düşəcəksə alert ilə "Məhsul əlavə olundu yazılsın", əgər artıq məhsul orada mövcuddursa "Məhsuldan bir ədəd də əlavə olundu yazılsın". Sweet  alert və ya hot toaster istifadə olunmalıdır.
+7. Basket səhifəniz olsun və basketdəki məhsullarınız table şəklində görünsün.
+8. Hər bir məhsulun qarşısında artırma, azaltma , silmə buttonu olsun. Həmçinin məhsulun sayı və qiyməti də əks olunsun.
+9. Artırma və azaltma buttonlarına klik etdikdə sayı  artsın və ya azalsın.
+10. Ən aşağıda total price olsun.
+11. Responsive design optionaldır.
+12. Localstorage optionaldır.
+13. Uİ-da sərbəstsiniz.

@@ -1,0 +1,11 @@
+https://prnt.sc/FElLndPskWP2
+
+
+
+Tələblər:
+
+1.Linkdəki Uİ-ı yazırsız.
+2.Müvafiq inputları dolsurub və ratingi də seçdikdə sonra göndərə klik etdikdə commonet digır kommentlərin siyahısına düşsün.
+3.Commentlərin əlavə olunması localstorage ilə olacaqdır.
+4.Comment tarixinin yazılmasında moment.js-dən istifadə edin.
+

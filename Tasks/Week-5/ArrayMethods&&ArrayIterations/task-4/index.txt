@@ -1,0 +1,2 @@
+Function yazın.İki parametr qəbul etsin. Birinci array olsun, ikincu isə index. Bu funksiya daxil edilən istənilən arrayda daxil edilən indexdəki ədədi silib. Qalan arrayi qaytarsın. Array iteration methodlardan istifadə edin.
+

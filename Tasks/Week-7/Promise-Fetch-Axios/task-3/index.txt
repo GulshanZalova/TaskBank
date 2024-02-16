@@ -1,0 +1,14 @@
+https://www.omdbapi.com/?s=harry&apikey=678bc548
+
+Tələb olunanlar:
+
+1. Verilən api-dən dataları ekranda cardlar şəklində göstərin.
+2. Hər bir card üzərində button olsun və ona klik etdikdə həmin film wishlistə düşsün.
+3. Əgər film wishlistdə yoxdursa buttona klik etdikdə wishlistdə düşsün, amma varsa klik zaman bununla bağlı məlumat alert çıxsın. Hot toaster və ya sweet alert istifadə edin. Həmçinin uğurla əlavə olunduqda da alert göstərilsin.
+4. Ayrıca bir wishlist səhifəsi olsun və wishlistdə olan filmlər orada cardlar şəklində göstərilsin.
+5. Wishlist səhifəsində hər filmin cardında silmək üçün bir button olsun və ona klik edəndə silinsin.
+6. Wishlistdə ən yuxarıda bir Clear All button olsun və ona klik edəndə bütün wishlist silinsin və ortada "Wishlist is empty" yazılsın.
+7. Wishlistə qeyd olunma və oradan silinmə localstorage ilə idarə olunsun.
+8. Home page-də header hissədə wishlistin içindəki filmlərin sayı göstərilsin.
+9. Uİ-da sərbəstsiniz.
+10. Responsivelik optional-dır.

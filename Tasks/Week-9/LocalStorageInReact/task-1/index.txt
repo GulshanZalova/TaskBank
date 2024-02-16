@@ -1,0 +1,13 @@
+https://www.omdbapi.com/?s={search}&apikey=678bc548
+
+Yuxarıdakı api-də search hissəyə  yazılan sözə əsasən mövcud olan filmləri və serialları ekranda göstərir
+
+Buna əsasən tələblər:
+
+1. Uİ-da header hissədə bir input və bir button yazın. İnputa yazıb buttona klik etdikdə aşağı hissədə həmin ada uyğun olan  filmlər görünsün.
+2. Filmlər görünənədək ekranda bir spinner olsun.
+3. Hər bir film üzərində bir icon olsun və ona klik etdikdə məhsul wishlistə əlavə olunsun.
+4. Headerdə bir button olsun və ona klik etdikdə səhifənin sağ hissəsindən drawer açılsın.
+5. Bu drawerdə wishlistdəki məhsullar olsun. 
+6. Wishlistdəki filmin delete buttonu olsun və ona klik etdikdə silinsin.
+7. Wishlistdə əlavə olunma və silinmə localstorage ilə olsunsun.

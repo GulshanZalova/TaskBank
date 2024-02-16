@@ -1,0 +1,6 @@
+https://nicepage.com/html-templates/preview/reliable-home-services-3854217?device=desktop
+
+
+1. Qeyd olunan linkdəki ui-ı react componentlərinə ayıraraq yazırsınız.
+2. Header,Footer, Personals, Personal componentləriniz olsun. Daha hansı componentlərə ayırmaq olar bunun üzərinə düşünün.
+3. Italy Pizza Menu hissəsindəki məlumatları array içərisində saxlayın və buradakı parent componentdə həmin array map edin və child componentə props olaraq ötürün. Paranet component Personals, child component isə Personal olsun.

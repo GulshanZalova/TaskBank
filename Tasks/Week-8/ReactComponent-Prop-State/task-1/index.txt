@@ -1,0 +1,8 @@
+https://www.quackit.com/html/templates/download/bootstrap/corporate-1/index.html
+
+
+
+1. Qeyd olunan linkdəki ui-ı react componentlərinə ayıraraq yazırsınız.
+2. Header,Footer, Cards, Card, Hero componentləriniz olsun. Daha hansı componentlərə ayırmaq olar bunun üzərinə düşünün.
+3. Superior Collaboration hissəsindəki məlumatları array içərisində saxlayın və buradakı parent componentdə həmin array map edin və child componentə props olaraq ötürün. Paranet component Cards, child component isə Card olsun.
+3. Backgroundu narıncı olan hissədəki məlumatları array içərisində saxlayın və buradakı parent componentdə həmin array map edin və child componentə props olaraq ötürün. Paranet component Features, child component isə Feature olsun.
